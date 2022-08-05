@@ -1,0 +1,66 @@
+upPanel{
+    display: grid;
+	grid-template-columns: 20% 50% 10% 10%; /*Редактировать значения*/
+    font-size: 160%;
+    background-color: rgba(97, 88, 77, 0.623);
+    padding-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+button > li > a
+{
+    color: black;
+    font-size: 140%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: black;
+}
+button{
+    box-shadow: 0 0 5px 2px;
+    background-color: blanchedalmond;
+}
+button:hover
+{
+    background-color: rgb(241, 217, 180);
+    box-shadow: 0 0 7px 4px;    
+}
+mainPageLogoPanel{
+    display: grid;
+	grid-template-columns: 100%; /*Редактировать значения*/
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    background-color: rgba(58, 57, 57, 0.623);    
+}
+panelCompany{
+    display: grid;
+	grid-template-columns: 100%; /*Редактировать значения*/
+    font-size: 140%;
+    color: white;
+    background-color: rgba(44, 34, 34, 0.747);          
+}
+panelGo{
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%; /*Редактировать значения*/
+    font-size: 140%;
+    color: white;
+    background-color: rgba(161, 141, 141, 0.747);          
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.textUp{
+    padding-top: 30px;
+}
